@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.button-wrapper {
+    position: absolute;
+    bottom: 4rem;
+    right: 4rem;
+}
+
+.button-wrapper button {
+    background-color: #00AFEF;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    margin: 0 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
