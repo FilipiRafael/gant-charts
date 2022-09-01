@@ -30,7 +30,7 @@ var gantt = new Gantt("#gantt", tasks, {
     column_width: 30,
     step: 24,
     view_modes: ['Quarter Day', 'Half Day', 'Day', 'Week', 'Month'],
-    bar_height: 32,
+    bar_height: 40,
     bar_corner_radius: 3,
     arrow_curve: 5,
     padding: 18,
